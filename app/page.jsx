@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
     return (
         <section className="w-full flex-center flex-col">
@@ -11,6 +13,7 @@ const Home = () => {
                 Zprompts is an open-source AI prompting tool for new-age to create, explore and
                 share creative prompts
             </p>
+            <Feed />
         </section>
     );
 };
